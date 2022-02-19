@@ -14,5 +14,9 @@
  {
   "product": "wall clock",
   "price": 50
+ },
+ {
+  "product": "mic",
+  "price": 32
  }
 ]
