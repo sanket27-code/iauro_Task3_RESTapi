@@ -1,8 +1,9 @@
 const fs = require('fs');
-const json_file_connection = require('../servers/json_file_connection');
+const json_file_connection = require("../servers/json_file_connection");
+// const json_file_connection = require('../servers/json_file_connection');
 
 exports.getAllProducts = (req, res)=>{
-    const allProducts = json_file_connection.allProducts;;
+    const allProducts = json_file_connection.allProducts;
     if(allProducts.length == 0){
         return res.send('No Product found!');
     }
